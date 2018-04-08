@@ -1,0 +1,8 @@
+
+:root {
+    --color-black: #000;
+    --color-silver: #ccc;
+    --color-alabaster: #fafafa;
+
+    --color-background: var(--color-alabaster);
+}

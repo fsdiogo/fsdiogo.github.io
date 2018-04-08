@@ -1,0 +1,10 @@
+@import "../../styles/variables.module.css";
+
+.link {
+    color: var(--color-alabaster);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--color-silver);
+    }
+}

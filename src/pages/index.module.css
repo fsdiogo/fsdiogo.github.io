@@ -1,0 +1,69 @@
+@import "../styles/variables.module.css";
+@import url("https://fonts.googleapis.com/css?family=Alice");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One");
+
+:root {
+    --color-kashmir-blue: #516395;
+    --color-affair-purple: #614385;
+}
+
+.container {
+    display: flex;
+    flex: 1 0 auto;
+    background: var(--color-affair-purple); /* Fallback for old browsers */
+    background: linear-gradient(to left, var(--color-kashmir-blue), var(--color-affair-purple));
+}
+
+.wrapper {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../media/topography.svg");
+}
+
+.hero {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-alabaster);
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+
+    & span {
+        font-size: 0.5rem;
+    }
+}
+
+.tagline {
+    margin-bottom: 2rem;
+    color: var(--color-alabaster);
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.3;
+
+    & span {
+        font-family: "Alice", serif;
+        font-size: 2rem;
+        font-weight: 300;
+
+        &::before,
+        &::after {
+            content: "\A";
+            white-space: pre;
+        }
+    }
+}
+
+.brands {
+    display: flex;
+
+    & svg {
+        margin: 0.6rem;
+        font-size: 1.5rem;
+    }
+}

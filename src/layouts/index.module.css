@@ -1,0 +1,23 @@
+@import "../styles/variables.module.css";
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+body {
+    background-color: var(--color-background);
+
+    & > div {
+        flex: 1 0 auto;
+    }
+}
+
+.layout {
+    height: 100%; /* Fallback for old browsers */
+    min-height: 100%;
+    display: flex;
+    flex: 1 0 auto;
+}

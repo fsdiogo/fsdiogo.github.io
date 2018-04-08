@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Gatsby
+.cache/
+public/
+
+# macOS
+*.DS_Store

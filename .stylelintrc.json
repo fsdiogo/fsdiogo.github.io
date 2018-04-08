@@ -1,0 +1,7 @@
+{
+    "extends": "stylelint-config-moxy",
+    "rules": {
+        "suitcss/custom-property-no-outside-root": null,
+        "at-rule-empty-line-before": null
+    }
+}

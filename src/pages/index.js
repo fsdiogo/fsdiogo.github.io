@@ -11,15 +11,11 @@ import styles from './index.module.css';
 import profilePic from '../media/diogo.jpg';
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
 import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
-import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEmail from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
 const SOCIAL_LINKS = [
     { name: 'github', href: 'https://github.com/fsdiogo', icon: faGithub },
     { name: 'linkedin', href: 'https://linkedin.com/in/fsdiogo', icon: faLinkedIn },
-    { name: 'twitter', href: 'https://twitter.com/_fsdiogo', icon: faTwitter },
-    { name: 'instagram', href: 'https://instagram.com/_fsdiogo', icon: faInstagram },
     { name: 'email', href: 'mailto:fsdiogo@gmail.com?subject=Hey%20Diogo!', icon: faEmail },
 ];
 

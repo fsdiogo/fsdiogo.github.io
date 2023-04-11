@@ -1,16 +1,14 @@
 {
   "name": "fsdiogo-github-io",
   "version": "0.0.0",
-  "description": "My collection of thoughts",
+  "description": "My website",
   "keywords": [
+    "fsdiogo",
     "diogo",
     "silva",
     "gatsby",
     "react",
-    "website",
-    "blog",
-    "collection",
-    "thoughts"
+    "website"
   ],
   "homepage": "https://fsdiogo.github.io",
   "license": "MIT",

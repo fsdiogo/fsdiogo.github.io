@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-// Components
 import Helmet from 'react-helmet';
-
-// Styles
+import favicon from '../media/favicon.ico';
 import styles from './index.module.css';
 
 const Template = ({ children }) => (
@@ -12,8 +9,11 @@ const Template = ({ children }) => (
         <Helmet
             title="Diogo Silva"
             meta={ [
-                { name: 'description', content: 'My collection of thoughts' },
-                { name: 'keywords', content: 'diogo, silva, gatsby, react, website, blog, collection, thoughts' },
+                { name: 'description', content: 'My website' },
+                { name: 'keywords', content: 'fsdiogo, diogo, silva, gatsby, react, website' },
+            ] }
+            link={ [
+                { rel: 'icon', type: 'image/x-icon', href: favicon },
             ] } />
 
         { children() }
